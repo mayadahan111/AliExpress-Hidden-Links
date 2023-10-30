@@ -1,4 +1,10 @@
 <div *ngIf="images && images.length">
+  <p [ngClass]="'general-text'">
+    בחירת הפריט לפי קוד צבע/דגם המופיע על גבי תמונות הפוסט, התאימו בין הקוד/צבע בלינק לפי תמונות הפוסט
+  </p>
+
+  <button [ngClass]="'purchase-button'">לרכישה</button>
+
   <div [ngClass]="'images-container'">
     <div *ngFor="let imageObj of images" [ngClass]="'image-card'">
       <img [ngSrc]="'./assets/img/' + imageObj.url" height="200" width="200"/>

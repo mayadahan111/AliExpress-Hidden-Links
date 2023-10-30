@@ -7,13 +7,21 @@ export class ItemsService {
     {
       id: "1",
       mainImageUrl: 'shoes-1.jpg',
-      title: 'Nike shoes',
+      title: 'נעלי נייק פורס',
+      price: '₪201.00',
+      link: '',
       images: [
         {
-          url: 'shoes-1.jpg'
+          url: 'shoes-1-1.jpg'
         },
         {
-          url: 'shoes-1.jpg'
+          url: 'shoes-1-2.jpg'
+        },
+        {
+          url: 'shoes-1-3.jpg'
+        },
+        {
+          url: 'shoes-1-4.jpg'
         }
       ]
     },
@@ -21,6 +29,8 @@ export class ItemsService {
       id: "2",
       mainImageUrl: 'shoes-2.jpg',
       title: 'Nike shoes',
+      price: '₪355.00',
+      link: '',
       images: [
         {
           url: 'shoes-2.jpg'
@@ -34,6 +44,8 @@ export class ItemsService {
       id: "3",
       mainImageUrl: 'shoes-3.jpg',
       title: 'Nike shoes',
+      price: '₪355.00',
+      link: '',
       images: [
         {
           url: 'shoes-3.jpg'
