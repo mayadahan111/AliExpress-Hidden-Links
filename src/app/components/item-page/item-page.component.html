@@ -1,0 +1,7 @@
+<div *ngIf="images && images.length">
+  <div [ngClass]="'images-container'">
+    <div *ngFor="let imageObj of images" [ngClass]="'image-card'">
+      <img [ngSrc]="'./assets/img/' + imageObj.url" height="200" width="200"/>
+    </div>
+  </div>
+</div>

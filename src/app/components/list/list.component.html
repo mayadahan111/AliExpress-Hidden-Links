@@ -1,0 +1,7 @@
+<div *ngIf="items && items.length">
+  <div [ngClass]="'list-container'">
+    <div *ngFor="let item of items" [ngClass]="'item-card'">
+      <img [ngSrc]="'./assets/img/' + item.mainImageUrl" height="200" width="200" (click)="itemClicked(item)"/>
+    </div>
+  </div>
+</div>

@@ -1,41 +1,13 @@
-
-.logo-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .logo {
   display: block;
   margin: auto;
-  //width: 100px;
-  //height: 100px;
 }
 
 .header-text {
   display: flex;
-  width: 450px;
+  width: 400px;
   justify-content: center;
   margin: -90px auto 100px;
   color: #ffa020;
-}
-
-.grid-container {
-  display: grid;
-  gap: 10px;
-  grid-template-columns: auto;
-  //background-color: #2196F3;
-  padding: 10px;
-}
-
-.grid-item {
-  display: block;
-  max-width: 300px;
-  max-height: 300px;
-  justify-self: center;
-  background-color: rgba(255, 255, 255, 0.8);
-  //border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
+  font-weight: normal;
 }
