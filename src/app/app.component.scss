@@ -1,7 +1,29 @@
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  //width: 100px;
+  //height: 100px;
+}
+
+.header-text {
+  display: flex;
+  width: 450px;
+  justify-content: center;
+  margin: -90px auto 100px;
+  color: #ffa020;
+}
+
 .grid-container {
   display: grid;
   gap: 10px;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto;
   //background-color: #2196F3;
   padding: 10px;
 }
